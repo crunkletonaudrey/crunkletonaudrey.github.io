@@ -24,13 +24,9 @@ h1, h2, h3, h4, h5, h6 {
 # Back to top button
 --------------------------------------------------------------*/
 .back-to-top {
-  position: fixed;
-  display: none;
-  width: 40px;
+  width: 100px;
   height: 40px;
   border-radius: 50px;
-  right: 15px;
-  bottom: 15px;
   background: #ff7f14;
   color: #fff;
   transition: display 0.5s ease-in-out;
@@ -560,7 +556,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 127, 20, 0.7);
   position: absolute;
   left: 30px;
   right: 30px;
@@ -617,7 +613,7 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: #45505b;
+  color: #fff;
   font-weight: 600;
 }
 
@@ -643,7 +639,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color:  #ff7f14;
+  color:  #fff;
 }
 
 .portfolio .portfolio-wrap:hover::before {
